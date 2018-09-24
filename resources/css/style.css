@@ -14,6 +14,10 @@ body {
   text-align: center;
 }
 
+a:visited {
+  color: white;
+}
+
 /* header */
 
 header {
@@ -70,7 +74,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 69px;
   height: 700px;
   width: 1200px;
   background-image: url("../../resources/images/background.jpg");
@@ -87,6 +90,8 @@ nav {
 .missioncont h2 {
   padding-bottom: 10px;
 }
+
+
 /*content section 2 */
 
 .tea {
@@ -96,7 +101,7 @@ nav {
   justify-content: center;
   align-items: center;
   width: 1000px;
-  margin-bottom: 69px;
+  margin-top: 69px;
 }
 
 .tea h4{
@@ -149,6 +154,7 @@ nav {
   padding-top: 69px;
   height: 500px;
   width: 1200px;
+  margin-top: 69px;
 }
 
 .downtown,
