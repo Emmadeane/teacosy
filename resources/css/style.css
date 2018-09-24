@@ -70,6 +70,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 69px;
   height: 700px;
   width: 1200px;
   background-image: url("../../resources/images/background.jpg");
@@ -95,6 +96,11 @@ nav {
   justify-content: center;
   align-items: center;
   width: 1000px;
+  margin-bottom: 69px;
+}
+
+.tea h4{
+  padding-bottom: 15px;
 }
 
 .berry,
@@ -104,6 +110,7 @@ nav {
 .bedford {
   display: inline-flex;
   flex-direction: column;
+  padding: 10px 10px;
 }
 
 .berry img,
@@ -113,6 +120,7 @@ nav {
 .bedford img {
   height: 200px;
   width: 300px;
+  padding-bottom: 15px;
 }
 .berry h2,
 .rum h2,
@@ -122,6 +130,13 @@ nav {
   padding-top: 10px;
 }
 
+.berry h4,
+.rum h4,
+.donuts h4,
+.myrtle h4,
+.bedford h4 {
+  padding-bottom: 0px;
+}
 /*content section 3 *
 
 .locations {
